@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Without React</title>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    const app = document.getElementById("app");
+    const button = document.createElement("button");
+    button.innerText = "Click Me!";
+    button.onclick = () => alert("Button Clicked!");
+    app.appendChild(button);
+  </script>
+</body>
+</html>

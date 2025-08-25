@@ -1,0 +1,13 @@
+In React, the term children refers to the elements passed between a component's opening and closing tags. 
+It's a special prop that automatically gets the value of whatever is put inside a component's JSX. 
+Think of it like a container that a parent component can fill with content for its child component. 📦
+
+
+
+How Children Props Work
+A component that uses children is designed to be a generic wrapper.
+ It doesn't need to know in advance what content it will contain.
+  This is a powerful concept for creating reusable UI components like a Card, Modal, or Layout component.
+   The parent component provides the content, and the child component provides the structure or styling around that content.
+
+The children prop is accessed just like any other prop, usually through destructuring in the component's function signature.
