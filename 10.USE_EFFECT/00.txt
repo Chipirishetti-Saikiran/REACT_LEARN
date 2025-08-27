@@ -1,0 +1,12 @@
+✅ What is useEffect?
+
+The useEffect hook lets you perform side effects in functional components.
+Side effects = actions outside React’s rendering cycle, like:
+
+Fetching data
+
+Subscribing to events
+
+Updating the DOM
+
+Timers

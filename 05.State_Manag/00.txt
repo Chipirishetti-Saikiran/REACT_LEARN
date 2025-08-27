@@ -1,0 +1,18 @@
+✅ What is State?
+
+Definition:
+
+State is data maintained by a component.
+
+When state changes, React re-renders the component.
+
+State makes your UI dynamic (like counters, forms, etc.).
+
+Think of props = external inputs (read-only) and state = internal memory (can change).
+
+
+
+
+//useState in function component
+
+//setState in class component
